@@ -3,3 +3,4 @@ __pycache__/
 *.log
 *.ipynb
 .DS_Store
+.github
