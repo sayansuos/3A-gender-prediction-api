@@ -6,7 +6,7 @@ on:
 
 env:
   PROJECT_ID: ensai-2026
-  REGION: europe
+  REGION: europe-west
   SERVICE_NAME: gender-prediction-api
   IMAGE: europe-docker.pkg.dev/ensai-2026/christophe/api-id2363
 
@@ -28,12 +28,6 @@ jobs:
 
       - name: Configure Docker
         run: gcloud auth configure-docker ${{ env.REGION }}-docker.pkg.dev
-
-      - name: Build and push Docker image
-        run: ...
-
-      - name: Deploy to Cloud Run
-        run: ...
 
       - name: Build and push Docker image
         run: |
