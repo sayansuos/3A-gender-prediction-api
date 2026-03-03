@@ -9,7 +9,7 @@ env:
   REGION: europe
   SERVICE_NAME: api-id2363
   TAG: ${{ github.sha }}
-  IMAGE: europe-docker.pkg.dev/ensai-2026/christophe/api-id2363:${{ env.TAG }}
+  IMAGE: europe-docker.pkg.dev/ensai-2026/christophe/api-id2363:${{ github.sha }}
 
 jobs:
   build_and_push:
