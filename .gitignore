@@ -5,3 +5,6 @@ __pycache__/
 .DS_Store
 .github
 .env
+.terraform
+.terraform.*
+terraform.*
